@@ -102,10 +102,26 @@ class DoublyLinkedList:
             return tail.value
 
     def move_to_front(self, node):
-        pass
+        if not self.head:
+            self.head = node
+            self.tail = node
+        else:
+            moved_node = node
+            node.delete()
+            moved_node.prev = None
+            moved_node.next = self.head
+            self.head = moved_node
 
     def move_to_end(self, node):
-        pass
+        if not self.head:
+            self.head = node
+            self.tail = node
+        else:
+            moved_node = node
+            node.delete()
+            moved_node.next = None
+            moved_node.prev = self.tail
+            self.tail = moved_node
 
     def delete(self, node):
         node.delete()
@@ -119,15 +135,3 @@ class DoublyLinkedList:
             else:
                 currentNode = currentNode.next
         return maxValue
-
-
-DLL = DoublyLinkedList()
-print(DLL.head)
-DLL.add_to_head(10)
-DLL.add_to_head(20)
-DLL.add_to_tail(30)
-
-currentNode = DLL.head
-while currentNode:
-    print(currentNode.value)
-    currentNode = currentNode.next
