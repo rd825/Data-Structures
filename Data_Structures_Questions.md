@@ -2,19 +2,22 @@ Answer the following questions for each of the data structures you implemented a
 
 ## Queue
 
-1. What is the runtime complexity of `enqueue`?
+1. What is the runtime complexity of `enqueue`?<br/>
+   O(1), because the list method append has constant runtime complexity.<br/><br/>
 
-2. What is the runtime complexity of `dequeue`?
+2. What is the runtime complexity of `dequeue`?<br/>
+   O(1), because the list method pop has constant runtime complexity.<br/><br/>
 
-3. What is the runtime complexity of `len`?
+3. What is the runtime complexity of `len`?<br/>
+   O(1), because the list method len has constant runtime complexity.<br/><br/>
 
 ## Binary Search Tree
 
-1. What is the runtime complexity of `insert`? 
+1. What is the runtime complexity of `insert`?
 
 2. What is the runtime complexity of `contains`?
 
-3. What is the runtime complexity of `get_max`? 
+3. What is the runtime complexity of `get_max`?
 
 ## Heap
 
