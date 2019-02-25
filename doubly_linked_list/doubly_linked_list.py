@@ -108,10 +108,17 @@ class DoublyLinkedList:
         pass
 
     def delete(self, node):
-        pass
+        node.delete()
 
     def get_max(self):
-        pass
+        currentNode = self.head
+        maxValue = currentNode.value
+        while currentNode:
+            if currentNode.value > maxValue:
+                maxValue = currentNode.value
+            else:
+                currentNode = currentNode.next
+        return maxValue
 
 
 DLL = DoublyLinkedList()
@@ -124,12 +131,3 @@ currentNode = DLL.head
 while currentNode:
     print(currentNode.value)
     currentNode = currentNode.next
-
-DLL.remove_from_head()
-currentNode = DLL.head
-while currentNode:
-    print(currentNode.value)
-    currentNode = currentNode.next
-
-DLL.remove_from_tail()
-print(DLL.tail.value)
