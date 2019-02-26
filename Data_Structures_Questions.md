@@ -33,24 +33,34 @@ Answer the following questions for each of the data structures you implemented a
 
 ## Doubly Linked List
 
-1. What is the runtime complexity of `ListNode.insert_after`?
+1.  What is the runtime complexity of `ListNode.insert_after`?<br/>
+    <br/><br/>
 
-2. What is the runtime complexity of `ListNode.insert_before`?
+2.  What is the runtime complexity of `ListNode.insert_before`?<br/>
+    <br/><br/>
 
-3. What is the runtime complexity of `ListNode.delete`?
+3.  What is the runtime complexity of `ListNode.delete`?<br/>
+    <br/><br/>
 
-4. What is the runtime complexity of `DoublyLinkedList.add_to_head`?
+4.  What is the runtime complexity of `DoublyLinkedList.add_to_head`?<br/>
+    <br/><br/>
 
-5. What is the runtime complexity of `DoublyLinkedList.remove_from_head`?
+5.  What is the runtime complexity of `DoublyLinkedList.remove_from_head`?<br/>
+    <br/><br/>
 
-6. What is the runtime complexity of `DoublyLinkedList.add_to_tail`?
+6.  What is the runtime complexity of `DoublyLinkedList.add_to_tail`?<br/>
+    <br/><br/>
 
-7. What is the runtime complexity of `DoublyLinkedList.remove_from_tail`?
+7.  What is the runtime complexity of `DoublyLinkedList.remove_from_tail`?<br/>
+    <br/><br/>
 
-8. What is the runtime complexity of `DoublyLinkedList.move_to_front`?
+8.  What is the runtime complexity of `DoublyLinkedList.move_to_front`?<br/>
+    <br/><br/>
 
-9. What is the runtime complexity of `DoublyLinkedList.move_to_end`?
+9.  What is the runtime complexity of `DoublyLinkedList.move_to_end`?<br/>
+    <br/><br/>
 
-10. What is the runtime complexity of `DoublyLinkedList.delete`?
+10. What is the runtime complexity of `DoublyLinkedList.delete`?<br/>
+    <br/><br/>
 
-    a. Compare the runtime of the doubly linked list's `delete` method with the worst-case runtime of the JS `Array.splice` method. Which method generally performs better?
+    a. Compare the runtime of the doubly linked list's `delete` method with the worst-case runtime of the JS `Array.splice` method. Which method generally performs better? <br/>
