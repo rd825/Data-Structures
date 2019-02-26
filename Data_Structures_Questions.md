@@ -20,6 +20,7 @@ Answer the following questions for each of the data structures you implemented a
    O(log n) because the size of the subtree to search is cut in half at each step.<br/><br/>
 
 3. What is the runtime complexity of `get_max`?<br/>
+   O(log n) because the size of the subtree to search is cut in half at each step.<br/><br/>
 
 ## Heap
 
