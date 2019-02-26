@@ -1,21 +1,23 @@
 class Heap:
-  def __init__(self):
-    self.storage = []
+    def __init__(self):
+        self.storage = []
 
-  def insert(self, value):
-    pass
+    def insert(self, value):
+        pass
 
-  def delete(self):
-    pass
+    def delete(self):
+        deleted = self.storage.pop(0)
 
-  def get_max(self):
-    pass
+        return deleted
 
-  def get_size(self):
-    pass
+    def get_max(self):
+        return self.storage[0]
 
-  def _bubble_up(self, index):
-    pass
+    def get_size(self):
+        return len(self.storage)
 
-  def _sift_down(self, index):
-    pass
+    def _bubble_up(self, index):
+        pass
+
+    def _sift_down(self, index):
+        pass
