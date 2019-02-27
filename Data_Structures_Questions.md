@@ -42,33 +42,44 @@ Answer the following questions for each of the data structures you implemented a
 ## Doubly Linked List
 
 1.  What is the runtime complexity of `ListNode.insert_after`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 2.  What is the runtime complexity of `ListNode.insert_before`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 3.  What is the runtime complexity of `ListNode.delete`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 4.  What is the runtime complexity of `DoublyLinkedList.add_to_head`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 5.  What is the runtime complexity of `DoublyLinkedList.remove_from_head`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 6.  What is the runtime complexity of `DoublyLinkedList.add_to_tail`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 7.  What is the runtime complexity of `DoublyLinkedList.remove_from_tail`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 8.  What is the runtime complexity of `DoublyLinkedList.move_to_front`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 9.  What is the runtime complexity of `DoublyLinkedList.move_to_end`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
 10. What is the runtime complexity of `DoublyLinkedList.delete`?<br/>
+    This should have constant runtime complexity because it just updates the next and prev references of the adjacent nodes.
     <br/><br/>
 
     a. Compare the runtime of the doubly linked list's `delete` method with the worst-case runtime of the JS `Array.splice` method. Which method generally performs better? <br/>
+    Array.splice is worst case O(n) so DLL.delete is probably better here.
