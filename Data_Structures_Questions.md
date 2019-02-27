@@ -25,12 +25,16 @@ Answer the following questions for each of the data structures you implemented a
 ## Heap
 
 1. What is the runtime complexity of `_bubble_up`?<br/>
+   It should be O(log n) because it treats the array storage as a binary tree, meaning that the size of the array to search for the appropriate spot gets cut in half at each step. <br/><br/>
 
 2. What is the runtime complexity of `_sift_down`?<br/>
+   It should be O(log n) because it treats the array storage as a binary tree, meaning that the size of the array to search for the appropriate spot gets cut in half at each step. <br/><br/>
 
 3. What is the runtime complexity of `insert`?<br/>
+   The insertion operation itself runs in constant time, but bubbling up takes O(log n), so the whole function takes that much time.<br/><br/>
 
 4. What is the runtime complexity of `delete`?<br/>
+   The deletion operation itself runs in constant time, but sifting down takes O(log n), so the whole function takes that much time.<br/><br/>
 
 5. What is the runtime complexity of `get_max`?<br/>
    O(1), because lists have constant time complexity for accession of a known index.<br/><br/>
